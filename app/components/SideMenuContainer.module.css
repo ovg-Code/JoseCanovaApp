@@ -1,0 +1,93 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 172.5px);
+  background-color: var(--green1);
+  width: 345px;
+  height: 1155px;
+}
+.homeIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard {
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  box-shadow: var(--shadow);
+  width: 299px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.email {
+  position: relative;
+  font-weight: 500;
+}
+.students {
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  width: 299px;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.activity,
+.list,
+.students {
+  display: flex;
+  justify-content: flex-start;
+}
+.activity {
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  background-color: var(--color-white);
+  width: 299px;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-5xl);
+  color: var(--green1);
+}
+.list {
+  position: absolute;
+  top: 150px;
+  left: 46px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.joseCanova {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+}
+.logoIcon {
+  position: absolute;
+  top: 45px;
+  left: 34px;
+  width: 61px;
+  height: 59px;
+  object-fit: cover;
+  display: none;
+}
+.sideMenu {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 960px);
+  width: 345px;
+  height: 1155px;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--color-gray-21);
+  font-family: var(--text-text-regular-1);
+}

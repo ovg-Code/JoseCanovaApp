@@ -1,0 +1,34 @@
+.dropdownIcon,
+.newest {
+  position: relative;
+}
+.dropdownIcon {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.content,
+.sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.sort {
+  border-radius: var(--br-21xl);
+  box-shadow: var(--shadow);
+  border: 2px solid var(--green1);
+  box-sizing: border-box;
+  width: 207px;
+  height: 60px;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-24xl);
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--green1);
+  font-family: var(--text-text-regular-1);
+}

@@ -1,0 +1,605 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 172.5px);
+  background-color: var(--green1);
+  width: 345px;
+  height: 1163px;
+}
+.homeIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard1 {
+  position: relative;
+  font-size: var(--text-text-regular-1-size);
+  font-weight: 500;
+  font-family: var(--text-text-regular-1);
+  color: var(--color-gray-21);
+  text-align: left;
+}
+.dashboard {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-5xl);
+  background-color: transparent;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  box-shadow: var(--shadow);
+  width: 299px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.email {
+  position: relative;
+  font-weight: 500;
+}
+.students,
+.teachers {
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  width: 299px;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.students {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: flex-start;
+  color: var(--green1);
+}
+.teachers {
+  cursor: pointer;
+}
+.list,
+.teachers,
+.user {
+  display: flex;
+  justify-content: flex-start;
+}
+.user {
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  width: 299px;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.list {
+  position: absolute;
+  top: 150px;
+  left: 46px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.joseCanova {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+}
+.logoIcon {
+  position: absolute;
+  top: 45px;
+  left: 34px;
+  width: 61px;
+  height: 59px;
+  object-fit: cover;
+}
+.sideMenu {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 960px);
+  width: 345px;
+  height: 1163px;
+  color: var(--color-gray-21);
+}
+.estudiantes {
+  position: absolute;
+  top: 50px;
+  left: 395px;
+  font-size: var(--heading-heading-1-size);
+}
+.background1,
+.check {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.background1 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1475px;
+  height: 873px;
+}
+.check {
+  border-radius: var(--br-9xs);
+  border: 2px solid var(--color-gray-21);
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+}
+.date,
+.grade,
+.id,
+.name {
+  position: absolute;
+  top: 2px;
+  left: 350px;
+  font-weight: 600;
+}
+.date,
+.grade,
+.name {
+  left: 54px;
+}
+.date,
+.grade {
+  left: 1232px;
+}
+.date {
+  left: 526px;
+}
+.parentName {
+  position: absolute;
+  left: 716px;
+}
+.city,
+.contact1,
+.parentName {
+  top: 2px;
+  font-weight: 600;
+}
+.city {
+  position: absolute;
+  left: 904px;
+}
+.contact1 {
+  left: 1049px;
+}
+.action,
+.contact1,
+.title {
+  position: absolute;
+}
+.action {
+  top: 2px;
+  left: 1365px;
+  font-weight: 600;
+}
+.title {
+  top: 32px;
+  left: 32px;
+  width: 1411px;
+  height: 24px;
+}
+.span {
+  color: var(--green1);
+}
+.span1 {
+  color: var(--color-darkslateblue-100);
+}
+.showing15FromContainer {
+  position: absolute;
+  top: 13px;
+  left: 0;
+}
+.dropdownIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.selectedpage {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 25px);
+  border-radius: var(--br-21xl);
+  background-color: var(--green1);
+  box-shadow: 0 7px 16px rgba(0, 0, 0, 0.14);
+  width: 50px;
+  height: 50px;
+}
+.div1 {
+  position: absolute;
+  top: 11px;
+  left: calc(50% - 3px);
+  display: inline-block;
+  width: 6.93px;
+}
+.div {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  color: var(--color-white);
+}
+.background2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 25.5px);
+  border-radius: var(--br-21xl);
+  border: 2px solid var(--color-gray-3);
+  box-sizing: border-box;
+  width: 51px;
+  height: 51px;
+}
+.div3 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% - 5.5px);
+  display: inline-block;
+  width: 10.89px;
+}
+.div2 {
+  position: relative;
+  width: 51px;
+  height: 51px;
+}
+.page {
+  position: absolute;
+  top: 0;
+  left: 1131px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--text-text-regular-1-size);
+}
+.pagination {
+  position: absolute;
+  top: 790px;
+  left: 32px;
+  width: 1411px;
+  height: 51px;
+  color: var(--color-gray-3);
+}
+.border1 {
+  top: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-2);
+  height: 1px;
+}
+.border1,
+.border2,
+.border3 {
+  position: absolute;
+  left: 0;
+  width: 1475px;
+}
+.border2 {
+  top: 113px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-2);
+  height: 1px;
+}
+.border3 {
+  top: 339px;
+}
+.border3,
+.border4,
+.border5 {
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-2);
+  height: 1px;
+}
+.border4 {
+  position: absolute;
+  top: 226px;
+  left: 0;
+  width: 1475px;
+}
+.border5 {
+  top: 452px;
+}
+.border,
+.border5,
+.border6,
+.selected {
+  position: absolute;
+  left: 0;
+  width: 1475px;
+}
+.border6 {
+  top: 565px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-2);
+  height: 1px;
+}
+.border,
+.selected {
+  top: 80px;
+  height: 566px;
+}
+.selected {
+  top: 0;
+  background-color: var(--color-white);
+  height: 112px;
+}
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 20px);
+  border-radius: var(--br-xl);
+  background-color: var(--green1);
+  width: 40px;
+  height: 40px;
+  opacity: 0.1;
+}
+.callIcon {
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  top: 20%;
+  right: 20%;
+  bottom: 20%;
+  left: 20%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.phone {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.emailIcon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.contact2 {
+  position: absolute;
+  top: 36px;
+  left: 1078px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.jakarta {
+  position: absolute;
+  top: 46px;
+  left: 936px;
+}
+.viiB {
+  position: relative;
+}
+.content,
+.status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.status {
+  position: absolute;
+  top: 36px;
+  left: 1262px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-yellow);
+  width: 80px;
+  height: 40px;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  box-sizing: border-box;
+  justify-content: center;
+  color: var(--color-white);
+}
+.check1,
+.jamesSoap {
+  position: absolute;
+  top: 46px;
+  left: 748px;
+}
+.check1 {
+  cursor: pointer;
+  top: 44px;
+  left: 32px;
+  border-radius: var(--br-9xs);
+  border: 2px solid var(--color-gray-21);
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+}
+.placeholder2 {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-21);
+  width: 48px;
+  height: 48px;
+}
+.customer,
+.name1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.customer {
+  position: absolute;
+  top: 32px;
+  left: 86px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+  font-size: var(--text-text-regular-1-size);
+}
+.march252021 {
+  top: 46px;
+  left: 558px;
+  color: var(--color-gray-3);
+}
+.div7,
+.dotsIcon,
+.march252021 {
+  position: absolute;
+}
+.div7 {
+  top: 46px;
+  left: 382px;
+  font-size: var(--text-text-regular-1-size);
+  font-weight: 600;
+}
+.dotsIcon {
+  top: 44px;
+  left: 1419px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.div6 {
+  position: relative;
+  width: 1475px;
+  height: 112px;
+}
+.list1 {
+  position: absolute;
+  top: 81px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+}
+.studentList,
+.studentsList {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1475px;
+  height: 873px;
+}
+.studentList {
+  top: 250px;
+  left: 395px;
+  font-size: var(--text-text-2-regular-size);
+}
+.icon {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 16.24px;
+  height: 16.16px;
+}
+.nuevosEstudiantes {
+  position: absolute;
+  top: 0;
+  left: 32.24px;
+  font-size: var(--text-text-regular-1-size);
+  font-family: var(--text-text-regular-1);
+  color: var(--color-white);
+  text-align: left;
+}
+.content1 {
+  position: relative;
+  width: 208.24px;
+  height: 27px;
+}
+.newStudentButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-24xl);
+  background-color: var(--green1);
+  position: absolute;
+  top: 0;
+  left: 1268px;
+  border-radius: var(--br-21xl);
+  box-shadow: var(--shadow);
+  width: 234px;
+  height: 60px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.content2,
+.newStudentButton,
+.sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content2 {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.sort {
+  position: absolute;
+  top: 0;
+  left: 1037px;
+  border-radius: var(--br-21xl);
+  box-shadow: var(--shadow);
+  border: 2px solid var(--green1);
+  box-sizing: border-box;
+  width: 227px;
+  height: 60px;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-24xl);
+}
+.buscarEstudiante {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+}
+.searchParent {
+  border-radius: var(--br-3xl);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xl) var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.searchBar,
+.studentMenu {
+  position: absolute;
+  height: 60px;
+}
+.searchBar {
+  top: 0;
+  left: calc(50% - 751px);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-13xl) var(--padding-11xs) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.studentMenu {
+  top: 150px;
+  left: 395px;
+  width: 1502px;
+}
+.estudiante {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1163px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--green1);
+  font-family: var(--text-text-regular-1);
+}

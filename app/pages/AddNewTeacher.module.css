@@ -1,0 +1,281 @@
+.agregarNuevoProfesor {
+  position: absolute;
+  top: 50px;
+  left: 395px;
+  font-size: var(--heading-heading-1-size);
+}
+.bg,
+.titleChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1475px;
+  height: 740px;
+}
+.titleChild {
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--green1);
+  height: 60px;
+}
+.detallesPersonales {
+  position: absolute;
+  top: 12px;
+  left: 40px;
+  display: inline-block;
+  width: 335px;
+  height: 60px;
+}
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1475px;
+  height: 72px;
+  font-size: var(--heading-heading-3-size);
+  color: var(--color-white);
+}
+.form,
+.nombre {
+  position: relative;
+}
+.nombre {
+  font-weight: 600;
+  display: inline-block;
+  width: 192px;
+}
+.form {
+  border: 0;
+  font-family: var(--text-text-regular-1);
+  font-size: var(--text-text-2-regular-size);
+  background-color: transparent;
+  width: 617px;
+  height: 48px;
+}
+.firstName,
+.lastName {
+  position: absolute;
+  top: 92px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.lastName {
+  left: 697px;
+}
+.form2 {
+  border: 0;
+  font-family: var(--text-text-regular-1);
+  font-size: var(--text-text-2-regular-size);
+  background-color: transparent;
+  position: relative;
+  width: 175px;
+  height: 175px;
+}
+.photo {
+  position: absolute;
+  top: 322px;
+  left: 697px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.form3 {
+  border: 0;
+  font-family: var(--text-text-regular-1);
+  font-size: var(--text-text-2-regular-size);
+  background-color: transparent;
+  position: relative;
+  width: 618px;
+  height: 203px;
+}
+.address,
+.email,
+.phone {
+  position: absolute;
+  top: 322px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.email,
+.phone {
+  top: 207px;
+}
+.phone {
+  left: 697px;
+}
+.fechaDeNaciemiento {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 284px;
+}
+.birthPlace,
+.dateBirth {
+  position: absolute;
+  top: 592px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.birthPlace {
+  left: 697px;
+}
+.personalDetail {
+  top: 150px;
+  left: 395px;
+  width: 1475px;
+  height: 740px;
+}
+.bg1,
+.educacion,
+.personalDetail {
+  position: absolute;
+}
+.bg1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1475px;
+  height: 338px;
+}
+.educacion {
+  top: 12px;
+  left: 40.32px;
+  display: inline-block;
+  width: 241.91px;
+}
+.form9,
+.title1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.title1 {
+  width: 1475px;
+  height: 60px;
+  font-size: var(--heading-heading-3-size);
+  color: var(--color-white);
+}
+.form9 {
+  width: 100%;
+  right: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-21);
+  box-sizing: border-box;
+  height: 48px;
+}
+.universityAkademiHistoria {
+  position: absolute;
+  width: calc(100% - 66px);
+  top: 15px;
+  left: 14px;
+  display: inline-block;
+}
+.form8 {
+  position: relative;
+  width: 617px;
+  height: 48px;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.fechaDeIniciofinalizacion {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 297px;
+}
+.september2013 {
+  position: absolute;
+  width: calc(100% - 36.5px);
+  top: 15px;
+  left: 14px;
+  display: inline-block;
+}
+.form13 {
+  position: relative;
+  width: 296.5px;
+  height: 48px;
+}
+.form12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.education {
+  position: absolute;
+  top: 930px;
+  left: 395px;
+  width: 1475px;
+  height: 338px;
+}
+.subir {
+  position: relative;
+}
+.submitButton {
+  top: 0;
+  left: 149px;
+  border-radius: var(--br-21xl);
+  background-color: var(--green1);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button,
+.draftButton,
+.submitButton {
+  position: absolute;
+  height: 60px;
+}
+.draftButton {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  border: 2px solid var(--green1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  color: var(--green1);
+}
+.button {
+  top: 1308px;
+  left: 1607px;
+  width: 243px;
+  color: var(--color-white);
+}
+.addNewTeacher {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1408px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--green1);
+  font-family: var(--text-text-regular-1);
+}

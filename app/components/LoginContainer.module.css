@@ -1,0 +1,114 @@
+.olvidasteTuContrasea,
+.recuerdame {
+  position: absolute;
+  top: 0;
+  left: 141px;
+  font-weight: 500;
+}
+.recuerdame {
+  left: 33px;
+  color: var(--color-black);
+}
+.sectionForgotChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-lightblue);
+  width: 18px;
+  height: 17px;
+}
+.sectionForgot {
+  position: absolute;
+  top: 320px;
+  left: 108px;
+  width: 317px;
+  height: 17px;
+  color: var(--color-coral-100);
+  font-family: var(--font-montserrat);
+}
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumspringgreen);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 45px;
+}
+.inicioDeSesn {
+  position: absolute;
+  top: 13px;
+  left: 89px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.loginBtn,
+.rectangle1 {
+  position: absolute;
+  width: 300px;
+  height: 45px;
+}
+.loginBtn {
+  top: 361px;
+  left: 105px;
+  cursor: pointer;
+  font-size: var(--button-button-lg-size);
+  font-family: var(--font-lexend-deca);
+}
+.rectangle1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+}
+.contrasea {
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  line-height: 20px;
+}
+.password {
+  position: absolute;
+  top: 252px;
+  left: 105px;
+  width: 300px;
+  height: 45px;
+}
+.usuario {
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  line-height: 20px;
+}
+.username {
+  position: absolute;
+  top: 175px;
+  left: 105px;
+  width: 300px;
+  height: 45px;
+}
+.regstrateYEmpieza {
+  position: absolute;
+  top: 119px;
+  left: 57px;
+  font-size: var(--button-button-lg-size);
+}
+.form,
+.inicioDeSesin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-45xl);
+}
+.form {
+  top: 227px;
+  left: 385px;
+  width: 510px;
+  height: 406px;
+  text-align: center;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-black);
+  font-family: var(--text-text-regular-1);
+}

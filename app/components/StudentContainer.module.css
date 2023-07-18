@@ -1,0 +1,36 @@
+.b,
+.estudiantes {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.b {
+  top: 27px;
+  font-size: var(--heading-heading-1-size);
+  color: var(--green1);
+}
+.div,
+.icon,
+.text {
+  position: absolute;
+  top: 0;
+  left: 102px;
+  width: 105px;
+  height: 81px;
+}
+.div,
+.icon {
+  top: 4px;
+  left: 0;
+  width: 72px;
+  height: 72px;
+}
+.div {
+  top: 0;
+  width: 207px;
+  height: 81px;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--color-gray-3);
+  font-family: var(--text-text-regular-1);
+}

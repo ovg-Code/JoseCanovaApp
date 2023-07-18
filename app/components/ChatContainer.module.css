@@ -1,0 +1,62 @@
+.samanthaWilliam {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.loremIpsumDolor {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  color: var(--color-gray-3);
+}
+.placeholder,
+.text {
+  position: absolute;
+  top: 6px;
+  left: 64px;
+  width: 201px;
+  height: 46px;
+}
+.placeholder {
+  top: 5px;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-21);
+  width: 48px;
+  height: 48px;
+}
+.chat1Child {
+  position: absolute;
+  top: 75.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-3);
+  box-sizing: border-box;
+  width: 313px;
+  height: 1px;
+}
+.chat1,
+.div,
+.pm {
+  position: absolute;
+  top: 0;
+  left: 254px;
+  color: var(--color-gray-3);
+}
+.chat1,
+.div {
+  top: 32px;
+  left: 278px;
+  font-family: var(--text-text-2-regular);
+  color: var(--color-white);
+}
+.chat1 {
+  top: 0;
+  left: 0;
+  width: 312px;
+  height: 76px;
+  text-align: left;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--green1);
+  font-family: var(--text-text-regular-1);
+}

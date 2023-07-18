@@ -1,0 +1,60 @@
+/* Menu */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+p {
+  margin: 0;
+}
+
+.menu {
+  width: 313px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.group-852 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.notification {
+  width: 60px;
+  height: 100%;
+}
+
+.setting {
+  width: 60px;
+  height: 100%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.nabila-a {
+  color: rgba(0, 71, 62, 1);
+  font-size: 14px;
+  line-height: 14px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+
+.admin {
+  color: rgba(71, 93, 91, 1);
+  font-size: 14px;
+  line-height: 14px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+
+.placeholder {
+  width: 60px;
+  height: 100%;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 1);
+}

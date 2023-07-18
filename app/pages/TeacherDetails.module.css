@@ -1,0 +1,452 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 1452px;
+  background-color: var(--color-white);
+  width: 468px;
+  height: 1325px;
+  display: none;
+}
+.detallesDeProfesor {
+  position: absolute;
+  top: 50px;
+  left: 395px;
+}
+.background1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 193px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 386px;
+  height: 129px;
+}
+.scheduleDetails,
+.thursday10thApril {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 103px);
+}
+.thursday10thApril {
+  top: 44px;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.scheduleDetailsParent {
+  position: absolute;
+  top: 32px;
+  left: calc(50% - 161px);
+  width: 206px;
+  height: 65px;
+}
+.background2,
+.schedule1,
+.statuscolor {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 193px);
+  width: 386px;
+}
+.schedule1 {
+  height: 129px;
+  font-size: var(--heading-heading-3-size);
+  color: var(--green1);
+}
+.background2,
+.statuscolor {
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  height: 183px;
+}
+.statuscolor {
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  background-color: var(--green1);
+  width: 24px;
+}
+.classViiB,
+.worldHistory {
+  position: absolute;
+  top: 32px;
+  left: calc(50% - 76.5px);
+}
+.worldHistory {
+  top: 0;
+  font-size: var(--text-text-regular-1-size);
+  font-weight: 600;
+  color: var(--green1);
+}
+.calendarIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.date {
+  position: absolute;
+  top: 80px;
+  left: calc(50% - 76.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.am {
+  position: relative;
+}
+.details,
+.hours {
+  position: absolute;
+}
+.hours {
+  top: 112px;
+  left: calc(50% - 76.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.details {
+  top: 24px;
+  left: calc(50% - 145px);
+  width: 153px;
+  height: 136px;
+}
+.schedule11,
+.statuscolor1 {
+  position: absolute;
+  top: 153px;
+  left: calc(50% - 193px);
+  width: 386px;
+  height: 183px;
+}
+.statuscolor1 {
+  top: 0;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  background-color: var(--color-orange);
+  width: 24px;
+}
+.schedule2 {
+  top: 360px;
+  width: 386px;
+}
+.background6,
+.schedule2,
+.schedule3,
+.schedule4,
+.statuscolor2 {
+  position: absolute;
+  left: calc(50% - 193px);
+  height: 183px;
+}
+.statuscolor2 {
+  top: 0;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  background-color: var(--color-yellow);
+  width: 24px;
+}
+.background6,
+.schedule3,
+.schedule4 {
+  top: 567px;
+  width: 386px;
+}
+.background6,
+.schedule4 {
+  top: 774px;
+}
+.background6 {
+  top: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--green1);
+  height: 60px;
+  opacity: 0.1;
+}
+.verMs {
+  position: absolute;
+  top: 17px;
+  left: calc(50% - 47px);
+  font-weight: 600;
+}
+.btnviewmore,
+.schedule {
+  position: absolute;
+  top: 1005px;
+  left: calc(50% - 193px);
+  width: 386px;
+  height: 60px;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--green1);
+}
+.schedule {
+  top: 150px;
+  left: calc(50% + 524px);
+  height: 1065px;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.background7 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1017px;
+  height: 1065px;
+}
+.background7,
+.card,
+.dotsIcon {
+  position: absolute;
+}
+.dotsIcon {
+  top: 172px;
+  left: 951px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.card {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--green1);
+  box-shadow: var(--shadow);
+  width: 1017px;
+  height: 140px;
+}
+.rectangle,
+.rectangle1 {
+  position: absolute;
+  top: 81.56px;
+  left: 554px;
+  border-radius: var(--br-381xl);
+  border: 16px solid var(--color-orange);
+  box-sizing: border-box;
+  width: 263.59px;
+  height: 275.13px;
+}
+.rectangle1 {
+  top: 31.65px;
+  left: 713.01px;
+  border: 16px solid var(--color-yellow);
+}
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1017px;
+  height: 140px;
+}
+.title,
+.title1 {
+  position: absolute;
+  top: 256px;
+  left: 32px;
+  font-size: var(--heading-heading-21-size);
+}
+.title1 {
+  top: 312px;
+  font-size: var(--text-text-regular-1-size);
+  font-weight: 600;
+  color: var(--color-gray-3);
+}
+.avatar,
+.bg,
+.placeholder {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+.placeholder {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-21);
+  border: 8px solid var(--color-white);
+  box-sizing: border-box;
+}
+.avatar,
+.bg {
+  top: 32px;
+  left: 32px;
+}
+.bg {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-orange);
+  width: 40px;
+  height: 40px;
+}
+.locationIcon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.location {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.placeholder1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 20px);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-orange);
+  width: 40px;
+  height: 40px;
+}
+.callIcon {
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  top: 20%;
+  right: 20%;
+  bottom: 20%;
+  left: 20%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  position: relative;
+  font-weight: 600;
+}
+.phone {
+  left: 265px;
+  width: 188px;
+  height: 40px;
+}
+.contact,
+.email,
+.mail,
+.phone {
+  position: absolute;
+  top: 0;
+}
+.mail {
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.contact,
+.email {
+  left: 501px;
+  width: 233px;
+  height: 40px;
+}
+.contact {
+  top: 379px;
+  left: 32px;
+  width: 734px;
+  font-size: var(--text-text-regular-1-size);
+}
+.about1,
+.loremIpsumDolor {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.loremIpsumDolor {
+  top: 52px;
+  font-size: var(--text-text-regular-1-size);
+  text-align: justify;
+  display: inline-block;
+  width: 616px;
+}
+.about,
+.expertise {
+  position: absolute;
+  top: 459px;
+  left: 32px;
+  width: 616px;
+  height: 160px;
+}
+.expertise {
+  top: 893px;
+  height: 79px;
+}
+.historyMajorUniversity {
+  margin: 0;
+  padding-left: var(--padding-5xl);
+}
+.historyMajorUniversityContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.div2 {
+  position: absolute;
+  top: 36px;
+  left: 27px;
+  font-size: var(--text-text-regular-1-size);
+  font-family: var(--text-text-regular-1);
+  color: var(--color-gray-3);
+}
+.div1,
+.div3,
+.list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 410px;
+  height: 63px;
+}
+.div3,
+.list {
+  top: 100px;
+  width: 444px;
+}
+.list {
+  top: 52px;
+  height: 163px;
+  text-align: justify;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.education,
+.teacherDetails1 {
+  position: absolute;
+  top: 647px;
+  left: 32px;
+  width: 444px;
+  height: 215px;
+}
+.teacherDetails1 {
+  top: 150px;
+  left: 395px;
+  width: 1017px;
+  height: 1065px;
+  font-size: var(--heading-heading-3-size);
+}
+.teacherDetails {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1255px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-heading-1-size);
+  color: var(--green1);
+  font-family: var(--text-text-regular-1);
+}

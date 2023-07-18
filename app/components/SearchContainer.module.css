@@ -1,0 +1,37 @@
+.searchIcon {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.searchHere,
+.searchIcon {
+  position: relative;
+}
+.searchBar,
+.searchParent {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.searchParent {
+  border-radius: var(--br-3xl);
+  padding: var(--padding-4xl) var(--padding-13xl);
+  gap: var(--gap-base);
+}
+.searchBar {
+  position: absolute;
+  top: 50px;
+  left: calc(50% + 190px);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  width: 350px;
+  padding: var(--padding-11xs) var(--padding-13xl) var(--padding-11xs) 0;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--color-gray-3);
+  font-family: var(--text-text-regular-1);
+}

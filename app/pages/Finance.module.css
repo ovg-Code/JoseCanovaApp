@@ -1,0 +1,622 @@
+.background,
+.finanzas {
+  position: absolute;
+  top: 50px;
+  left: 395px;
+}
+.background {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1475px;
+  height: 479px;
+}
+.dropdownIcon,
+.mes {
+  position: relative;
+}
+.dropdownIcon {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.legendChild,
+.sort {
+  position: absolute;
+  box-sizing: border-box;
+}
+.sort {
+  top: 28px;
+  left: 1236px;
+  border-radius: var(--br-21xl);
+  box-shadow: var(--shadow);
+  border: 2px solid var(--green1);
+  width: 207px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-24xl);
+  align-items: center;
+  justify-content: center;
+}
+.legendChild {
+  top: 4.5px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-orange);
+  width: 12px;
+  height: 12px;
+}
+.b {
+  position: relative;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--green1);
+}
+.text {
+  position: absolute;
+  top: 0;
+  left: 20.83px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.legend,
+.legendItem {
+  position: absolute;
+  top: 0;
+  left: 109.93px;
+  width: 80.83px;
+  height: 52px;
+}
+.legendItem {
+  top: 4px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-yellow);
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+}
+.legend1,
+.text1 {
+  position: absolute;
+  top: 0;
+}
+.text1 {
+  left: 20.93px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.legend1 {
+  left: 0;
+  width: 70.93px;
+  height: 52px;
+}
+.analisisDeBalance,
+.hint {
+  position: absolute;
+  top: 32px;
+}
+.hint {
+  left: 1004px;
+  width: 190.75px;
+  height: 52px;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.analisisDeBalance {
+  left: 43.7px;
+  font-size: var(--heading-heading-3-size);
+}
+.background1,
+.schoolPerformance {
+  position: absolute;
+  top: 212px;
+  left: 0;
+  width: 1475px;
+  height: 479px;
+}
+.background1 {
+  top: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 847px;
+  height: 725px;
+}
+.intuicinEstudiantilNo {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  display: inline-block;
+  width: 503px;
+}
+.background2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 847px;
+  height: 104px;
+}
+.placeholder,
+.profilepicture {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+.placeholder {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-21);
+}
+.profilepicture {
+  top: 28px;
+  left: 32px;
+}
+.inv0001234,
+.samanthaW,
+.total {
+  position: absolute;
+  top: 39px;
+  left: 104px;
+  font-weight: 600;
+}
+.inv0001234,
+.total {
+  left: 282px;
+}
+.total {
+  left: 642px;
+  text-align: right;
+}
+.inv00012341,
+.viiA {
+  position: absolute;
+  left: 0;
+}
+.viiA {
+  top: 21px;
+  font-weight: 600;
+}
+.inv00012341 {
+  top: 0;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.text2 {
+  top: 0;
+  left: 64px;
+  width: 40px;
+  height: 48px;
+}
+.bg,
+.text2,
+.userIcon {
+  position: absolute;
+}
+.bg {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-orange);
+  width: 48px;
+  height: 48px;
+}
+.userIcon {
+  height: 50%;
+  width: 50%;
+  top: 25%;
+  right: 25%;
+  bottom: 25%;
+  left: 25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.class,
+.icon,
+.menuIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+}
+.class,
+.menuIcon {
+  top: 28px;
+  left: 467px;
+  width: 104px;
+}
+.menuIcon {
+  top: 40px;
+  left: 791px;
+  width: 24px;
+  height: 24px;
+}
+.div {
+  position: relative;
+  width: 847px;
+  height: 104px;
+}
+.list {
+  position: absolute;
+  top: 92px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--text-text-regular-1-size);
+}
+.span {
+  color: var(--green1);
+}
+.span1 {
+  color: var(--color-darkslateblue-100);
+}
+.showing15FromContainer {
+  position: absolute;
+  top: 13px;
+  left: 0;
+}
+.selectedpage {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 25px);
+  border-radius: var(--br-21xl);
+  background-color: var(--green1);
+  box-shadow: 0 7px 16px rgba(0, 0, 0, 0.14);
+  width: 50px;
+  height: 50px;
+}
+.div6 {
+  position: absolute;
+  top: 11px;
+  left: calc(50% - 3px);
+  display: inline-block;
+  width: 6.93px;
+}
+.div5 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  color: var(--color-white);
+}
+.background7 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 25.5px);
+  border-radius: var(--br-21xl);
+  border: 2px solid var(--color-gray-3);
+  box-sizing: border-box;
+  width: 51px;
+  height: 51px;
+}
+.div8 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% - 5.5px);
+  display: inline-block;
+  width: 10.89px;
+}
+.div7 {
+  position: relative;
+  width: 51px;
+  height: 51px;
+}
+.page {
+  position: absolute;
+  top: 0;
+  left: 494px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--text-text-regular-1-size);
+}
+.pagination {
+  position: absolute;
+  top: 642px;
+  left: 41px;
+  width: 774px;
+  height: 51px;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.unpaidStudent {
+  position: absolute;
+  top: 731px;
+  left: 0;
+  width: 847px;
+  height: 725px;
+  font-size: var(--heading-heading-3-size);
+}
+.background9 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 360px;
+  height: 172px;
+}
+.b2,
+.background9,
+.totalEstudiantes {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.b2 {
+  top: 27px;
+  font-size: var(--heading-heading-1-size);
+  color: var(--green1);
+}
+.span3 {
+  font-weight: 600;
+}
+.thanLastMonth {
+  color: var(--color-gray-3);
+}
+.thanLastMonthContainer {
+  position: absolute;
+  top: 85px;
+  left: 0;
+  color: var(--color-green);
+}
+.icon5,
+.text7 {
+  position: absolute;
+  top: 0;
+  left: 102px;
+  width: 194px;
+  height: 112px;
+}
+.icon5 {
+  top: 20px;
+  left: 0;
+  width: 72px;
+  height: 72px;
+}
+.div11,
+.totalStudents {
+  position: absolute;
+  top: 30px;
+  left: 32px;
+  width: 296px;
+  height: 112px;
+}
+.totalStudents {
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 172px;
+}
+.thanLastMonthContainer1 {
+  position: absolute;
+  top: 85px;
+  left: 0;
+  color: #ff4550;
+}
+.div12,
+.text8 {
+  position: absolute;
+  top: 0;
+  left: 102px;
+  width: 202px;
+  height: 112px;
+}
+.div12 {
+  top: 30px;
+  left: 32px;
+  width: 304px;
+}
+.background11,
+.totalTeachers {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 360px;
+  height: 172px;
+}
+.background11 {
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 675px;
+}
+.graphIcon {
+  position: absolute;
+  top: 43px;
+  left: 360px;
+  width: 285px;
+  height: 85px;
+}
+.span6 {
+  color: var(--color-black);
+}
+.div13,
+.text9,
+.totalBalance {
+  position: absolute;
+  top: 0;
+  left: 102px;
+  width: 196px;
+  height: 112px;
+}
+.div13,
+.totalBalance {
+  top: 30px;
+  left: 32px;
+  width: 298px;
+}
+.totalBalance {
+  top: 0;
+  left: 800px;
+  width: 675px;
+  height: 172px;
+}
+.overview {
+  left: 0;
+  width: 1475px;
+  height: 172px;
+  color: var(--color-gray-3);
+}
+.bg5,
+.overview,
+.page1 {
+  position: absolute;
+  top: 0;
+}
+.bg5 {
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 588px;
+  height: 725px;
+}
+.page1 {
+  left: 244px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--text-text-regular-1-size);
+}
+.pagination1 {
+  position: absolute;
+  top: 642px;
+  left: 32px;
+  width: 524px;
+  height: 51px;
+  color: var(--color-gray-3);
+}
+.icon8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 56px;
+}
+.div21 {
+  position: relative;
+  font-weight: 600;
+}
+.march20211345 {
+  position: relative;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-1);
+}
+.text10 {
+  position: absolute;
+  top: 2px;
+  left: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.complete,
+.div22 {
+  position: absolute;
+  top: 15px;
+  left: 433px;
+  font-weight: 600;
+  color: var(--color-green);
+}
+.div22 {
+  left: 295px;
+  color: var(--green1);
+}
+.div20 {
+  position: relative;
+  width: 524px;
+  height: 56px;
+}
+.pending {
+  position: absolute;
+  top: 15px;
+  left: 433px;
+  font-weight: 600;
+  color: var(--color-gray-3);
+}
+.div23 {
+  position: relative;
+  width: 509px;
+  height: 56px;
+}
+.canceled {
+  position: absolute;
+  top: 15px;
+  left: 433px;
+  font-weight: 600;
+  color: var(--color-red);
+}
+.div26 {
+  position: relative;
+  width: 522px;
+  height: 56px;
+}
+.list1 {
+  position: absolute;
+  top: 112px;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--text-text-regular-1-size);
+}
+.gastosEscolares,
+.schoolExpense {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-size: var(--heading-heading-3-size);
+}
+.schoolExpense {
+  top: 731px;
+  left: 887px;
+  width: 588px;
+  height: 725px;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-main);
+}
+.content {
+  position: absolute;
+  top: 144px;
+  left: 395px;
+  width: 1475px;
+  height: 1456px;
+  font-size: var(--text-text-regular-1-size);
+}
+.finance {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1640px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-heading-1-size);
+  color: var(--green1);
+  font-family: var(--text-text-regular-1);
+}

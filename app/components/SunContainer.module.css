@@ -1,0 +1,156 @@
+.div {
+  position: relative;
+}
+.date1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64.92px;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date,
+.date1,
+.date3 {
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.date {
+  position: absolute;
+  top: 0;
+  left: 260px;
+  width: 64.92px;
+  height: 74px;
+}
+.date3 {
+  width: 65px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date2,
+.date3,
+.date5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 74px;
+}
+.date2 {
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 65px;
+  color: var(--color-gray-3);
+}
+.date5 {
+  width: 64.98px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date4,
+.date5,
+.date7 {
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.date4 {
+  position: absolute;
+  top: 0;
+  left: 65px;
+  width: 64.98px;
+  height: 74px;
+}
+.date7 {
+  left: 0;
+  width: 64.96px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date6,
+.date7,
+.date9 {
+  position: absolute;
+  top: 0;
+  height: 74px;
+}
+.date6 {
+  left: 130px;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 64.96px;
+}
+.date9 {
+  left: 0;
+  width: 64.94px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date10,
+.date11,
+.date8,
+.date9 {
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.date8 {
+  position: absolute;
+  top: 0;
+  left: 195px;
+  width: 64.94px;
+  height: 74px;
+}
+.date10,
+.date11 {
+  width: 64.9px;
+}
+.date11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date10 {
+  left: 325px;
+  background-color: var(--color-gray);
+}
+.date10,
+.date12,
+.week01 {
+  position: absolute;
+  top: 0;
+  height: 74px;
+}
+.date12 {
+  left: 390px;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 65px;
+}
+.week01 {
+  left: 0;
+  width: 455px;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--green1);
+  font-family: var(--text-text-regular-1);
+}

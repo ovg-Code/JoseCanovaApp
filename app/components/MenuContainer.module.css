@@ -1,0 +1,74 @@
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: 253px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-21);
+  width: 60px;
+  height: 60px;
+}
+.nabilaA {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.admin,
+.nabilaA,
+.name {
+  position: absolute;
+}
+.admin {
+  top: 25px;
+  left: 18px;
+  color: var(--color-gray-3);
+}
+.name {
+  top: 7px;
+  left: 165px;
+  width: 64px;
+  height: 46px;
+}
+.notificationIcon {
+  position: absolute;
+  top: -30px;
+  left: -50px;
+  width: 160px;
+  height: 160px;
+}
+.bg,
+.gearIcon {
+  position: absolute;
+}
+.bg {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  box-shadow: var(--shadow);
+  width: 60px;
+  height: 60px;
+}
+.gearIcon {
+  top: 14px;
+  left: 14px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.menu,
+.setting {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  width: 60px;
+  height: 60px;
+}
+.menu {
+  top: 50px;
+  left: 1557px;
+  width: 313px;
+  text-align: left;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--green1);
+  font-family: var(--text-text-regular-1);
+}

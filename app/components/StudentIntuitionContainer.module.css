@@ -1,0 +1,79 @@
+.placeholder {
+  position: absolute;
+  top: 28px;
+  left: 32px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-21);
+  width: 48px;
+  height: 48px;
+}
+.date,
+.inv0001234,
+.samanthaWilliam {
+  position: absolute;
+  top: 39px;
+  left: 104px;
+  font-weight: 600;
+}
+.date,
+.inv0001234 {
+  left: 385px;
+}
+.date {
+  left: 800px;
+  text-align: right;
+}
+.inv00012341,
+.viiA {
+  position: absolute;
+  left: 0;
+}
+.viiA {
+  top: 21px;
+  font-weight: 600;
+}
+.inv00012341 {
+  top: 0;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.text {
+  top: 0;
+  left: 64px;
+  width: 40px;
+}
+.class,
+.icon,
+.menuIcon,
+.text {
+  position: absolute;
+  height: 48px;
+}
+.icon {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  width: 48px;
+}
+.class,
+.menuIcon {
+  top: 28px;
+  left: 596px;
+  width: 104px;
+}
+.menuIcon {
+  top: 40px;
+  left: 968px;
+  width: 80px;
+  height: 24px;
+}
+.div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1080px;
+  height: 104px;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--green1);
+  font-family: var(--text-text-regular-1);
+}

@@ -1,0 +1,1513 @@
+.homeIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard {
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  background-color: var(--color-white);
+  box-shadow: var(--shadow);
+  width: 299px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--green1);
+}
+.studentIcon {
+  position: relative;
+  width: 40px;
+  height: 46.75px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.email {
+  position: relative;
+  font-size: var(--text-text-regular-1-size);
+  font-weight: 500;
+  font-family: var(--text-text-regular-1);
+  color: var(--color-gray-21);
+  text-align: left;
+}
+.students {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-5xl);
+  background-color: transparent;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  width: 299px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.contact {
+  position: relative;
+  font-weight: 500;
+}
+.teachers {
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  width: 299px;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-5xl);
+  cursor: pointer;
+}
+.list,
+.teachers,
+.user {
+  display: flex;
+  justify-content: flex-start;
+}
+.user {
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  width: 299px;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.list {
+  position: absolute;
+  top: 150px;
+  left: 46px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.joseCanova {
+  position: absolute;
+  top: 55px;
+  left: 110px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  text-align: center;
+}
+.logoIcon {
+  position: absolute;
+  top: 45px;
+  left: 34px;
+  width: 61px;
+  height: 59px;
+  object-fit: cover;
+}
+.sideMenu {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 960px);
+  background-color: var(--green1);
+  width: 345px;
+  height: 2310px;
+  color: var(--color-gray-21);
+}
+.tablero1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: var(--heading-heading-1-size);
+}
+.content1 {
+  position: absolute;
+  top: 46px;
+  left: 188px;
+  width: 704px;
+  height: 81px;
+}
+.legendChild,
+.overview {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.overview {
+  top: 150px;
+  left: 50px;
+  border-radius: var(--br-xl);
+  width: 1080px;
+  height: 172px;
+}
+.legendChild {
+  top: 0;
+  left: 43.07px;
+  border-radius: 50%;
+  border: 3px solid var(--color-orange);
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+}
+.b,
+.ultimoTrimeste {
+  position: relative;
+}
+.b {
+  font-size: var(--text-text-regular-1-size);
+  color: var(--green1);
+}
+.text {
+  position: absolute;
+  top: 6.5px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.legend,
+.legendItem {
+  position: absolute;
+  top: 0;
+  left: 134px;
+  width: 109px;
+  height: 58.5px;
+}
+.legendItem {
+  top: 4.31px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-yellow);
+  box-sizing: border-box;
+  width: 12px;
+  height: 12.92px;
+}
+.hint,
+.legend1,
+.text1 {
+  position: absolute;
+  height: 56px;
+}
+.text1 {
+  top: 0;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.hint,
+.legend1 {
+  top: 8px;
+  left: 0;
+  width: 116px;
+}
+.hint {
+  top: 30px;
+  left: 779px;
+  width: 243px;
+  height: 64px;
+}
+.rendimientoEscolar {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-size: var(--heading-heading-3-size);
+  color: var(--green1);
+}
+.schoolPerformance {
+  position: absolute;
+  top: 362px;
+  left: 50px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1080px;
+  height: 479px;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.finanzasEscolares {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  color: var(--green1);
+}
+.line,
+.line1 {
+  position: absolute;
+  left: 0;
+  width: 410px;
+}
+.line {
+  top: 347.15px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-21);
+  height: 1.36px;
+}
+.line1 {
+  top: 277.72px;
+}
+.line1,
+.line2,
+.line3 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-21);
+  height: 1.36px;
+}
+.line2 {
+  position: absolute;
+  top: 208.29px;
+  left: 0;
+  width: 410px;
+}
+.line3 {
+  top: 138.86px;
+}
+.line3,
+.line4,
+.line5,
+.lines1 {
+  position: absolute;
+  left: 0;
+  width: 410px;
+}
+.line4 {
+  top: 69.43px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-21);
+  height: 1.36px;
+}
+.line5,
+.lines1 {
+  top: 0;
+}
+.line5 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-21);
+  height: 1.36px;
+}
+.lines1 {
+  height: 348.51px;
+}
+.line6,
+.line7 {
+  top: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-21);
+  width: 347.15px;
+  height: 0.75px;
+}
+.line6 {
+  position: absolute;
+  left: 409.25px;
+}
+.line7 {
+  left: 327.55px;
+}
+.line7,
+.line8,
+.line9 {
+  position: absolute;
+}
+.line8 {
+  top: 0;
+  left: 245.85px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-21);
+  width: 347.15px;
+  height: 0.75px;
+}
+.line9 {
+  left: 163.4px;
+}
+.line10,
+.line11,
+.line9 {
+  top: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-21);
+  width: 347.15px;
+  height: 0.75px;
+}
+.line10 {
+  position: absolute;
+  left: 81.7px;
+}
+.line11 {
+  left: 0;
+}
+.line11,
+.lines,
+.lines2 {
+  position: absolute;
+}
+.lines2 {
+  top: 347.15px;
+  left: 0;
+  width: 347.15px;
+  height: 410px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.lines {
+  top: 12.48px;
+  left: 43px;
+  width: 410px;
+  height: 348.51px;
+}
+.div,
+.div1,
+.div2 {
+  position: absolute;
+  left: 0;
+}
+.div {
+  top: 0;
+  display: inline-block;
+  width: 29px;
+  height: 25.92px;
+}
+.div1,
+.div2 {
+  width: 23px;
+}
+.div1 {
+  top: 69.13px;
+  display: inline-block;
+  height: 25.92px;
+}
+.div2 {
+  top: 138.25px;
+}
+.div2,
+.div3,
+.div4 {
+  display: inline-block;
+  height: 25.92px;
+}
+.div3 {
+  position: absolute;
+  top: 208.34px;
+  left: 0;
+  width: 23px;
+}
+.div4 {
+  top: 276.5px;
+  width: 22px;
+}
+.div4,
+.div5,
+.numbers {
+  position: absolute;
+  left: 0;
+}
+.div5 {
+  top: 347.55px;
+  display: inline-block;
+  width: 12px;
+  height: 25.92px;
+}
+.numbers {
+  top: 0;
+  width: 29px;
+  height: 373.47px;
+}
+.mon,
+.tue {
+  top: 0;
+  display: inline-block;
+}
+.mon {
+  position: absolute;
+  left: 0;
+  width: 39px;
+  height: 33.06px;
+}
+.tue {
+  left: 65.21px;
+  width: 33px;
+}
+.thu,
+.tue,
+.wed {
+  position: absolute;
+  height: 33.06px;
+}
+.wed {
+  top: 0;
+  left: 126.07px;
+  color: var(--green1);
+  display: inline-block;
+  width: 41px;
+}
+.thu {
+  left: 192.73px;
+  width: 33px;
+}
+.fri,
+.sat,
+.thu {
+  top: 0;
+  display: inline-block;
+}
+.fri {
+  position: absolute;
+  left: 253.59px;
+  width: 21px;
+  height: 33.06px;
+}
+.sat {
+  left: 305.76px;
+  width: 30px;
+}
+.bar,
+.day,
+.sat,
+.sun {
+  position: absolute;
+  height: 33.06px;
+}
+.sun {
+  top: 0;
+  left: 364.45px;
+  display: inline-block;
+  width: 34px;
+}
+.bar,
+.day {
+  top: 386.94px;
+  left: 49.02px;
+  width: 398.45px;
+}
+.bar {
+  top: 81.38px;
+  left: 0;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-orange);
+  width: 15.28px;
+  height: 256.56px;
+}
+.bar1,
+.bar2,
+.bar3,
+.div6 {
+  position: absolute;
+  top: 0;
+  height: 337.95px;
+}
+.bar1 {
+  left: 18.92px;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-yellow);
+  width: 14.55px;
+}
+.bar2,
+.bar3,
+.div6 {
+  left: 0;
+  width: 33.47px;
+}
+.bar2,
+.bar3 {
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-orange);
+  width: 15.21px;
+  height: 195.87px;
+}
+.bar3 {
+  top: 43.78px;
+  left: 18.63px;
+  background-color: var(--color-yellow);
+  height: 152.09px;
+}
+.bar4,
+.div7 {
+  position: absolute;
+  top: 142.08px;
+  left: 62.34px;
+  width: 33.83px;
+  height: 195.87px;
+}
+.bar4 {
+  top: 20.8px;
+  left: 0;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-orange);
+  width: 15.21px;
+  height: 106.1px;
+}
+.bar5,
+.bar6,
+.div8 {
+  position: absolute;
+  height: 126.9px;
+}
+.bar5 {
+  top: 0;
+  left: 18.63px;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-yellow);
+  width: 15.21px;
+}
+.bar6,
+.div8 {
+  top: 211.04px;
+  left: 124.68px;
+  width: 33.83px;
+}
+.bar6 {
+  top: 33.67px;
+  left: 0;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-orange);
+  width: 15.21px;
+  height: 137.36px;
+}
+.bar7,
+.bar8,
+.div9 {
+  position: absolute;
+  height: 171.03px;
+}
+.bar7 {
+  top: 0;
+  left: 18.63px;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-yellow);
+  width: 15.21px;
+}
+.bar8,
+.div9 {
+  top: 166.92px;
+  left: 187.79px;
+  width: 33.83px;
+}
+.bar8 {
+  top: 30.97px;
+  left: 0;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-orange);
+  width: 15.21px;
+  height: 71.37px;
+}
+.bar10,
+.bar11,
+.bar9,
+.div10 {
+  position: absolute;
+  height: 102.35px;
+}
+.bar9 {
+  top: 0;
+  left: 18.63px;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-yellow);
+  width: 15.21px;
+}
+.bar10,
+.bar11,
+.div10 {
+  top: 235.6px;
+  left: 250.89px;
+  width: 33.83px;
+}
+.bar10,
+.bar11 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-orange);
+  width: 15.21px;
+  height: 284.15px;
+}
+.bar11 {
+  top: 55.21px;
+  left: 18.63px;
+  background-color: var(--color-yellow);
+  height: 228.94px;
+}
+.bar12,
+.div11 {
+  position: absolute;
+  top: 53.8px;
+  left: 307.91px;
+  width: 33.83px;
+  height: 284.15px;
+}
+.bar12 {
+  top: 68.11px;
+  left: 0;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-orange);
+  width: 15.21px;
+  height: 188.45px;
+}
+.bar13,
+.div12,
+.graph {
+  position: absolute;
+  height: 256.56px;
+}
+.bar13 {
+  top: 0;
+  left: 18.63px;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  background-color: var(--color-yellow);
+  width: 15.21px;
+}
+.div12,
+.graph {
+  top: 81.38px;
+  left: 364.17px;
+  width: 33.83px;
+}
+.graph {
+  top: 23.04px;
+  left: 49px;
+  width: 398px;
+  height: 337.95px;
+}
+.unionIcon {
+  position: relative;
+  width: 103px;
+  height: 82px;
+}
+.b2 {
+  position: absolute;
+  top: 11px;
+  left: 34.65px;
+}
+.income {
+  top: 42px;
+  left: 11.44px;
+  font-size: var(--text-text-2-regular-size);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.chart,
+.details,
+.income {
+  position: absolute;
+}
+.details {
+  top: 99px;
+  left: 198px;
+  width: 103px;
+  height: 82px;
+  text-align: center;
+  color: var(--color-white);
+}
+.chart {
+  top: 110px;
+  left: 32px;
+  width: 453px;
+  height: 420px;
+  font-size: var(--text-text-regular-1-size);
+}
+.legendInner {
+  position: absolute;
+  top: 4.5px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-orange);
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+}
+.text2 {
+  position: absolute;
+  top: 0;
+  left: 19.93px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.ellipseDiv,
+.legend2 {
+  position: absolute;
+  top: 0;
+  left: 124px;
+  width: 73.93px;
+  height: 52px;
+}
+.ellipseDiv {
+  top: 4px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-yellow);
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+}
+.text3 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.hint1,
+.legend3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 112px;
+  height: 52px;
+}
+.hint1 {
+  top: 36px;
+  left: 289px;
+  width: 197.93px;
+  font-size: var(--text-text-2-regular-size);
+}
+.backgroundIcon,
+.schoolFinance {
+  position: absolute;
+  width: 520px;
+  height: 562px;
+}
+.schoolFinance {
+  top: 881px;
+  left: 610px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  color: var(--color-gray-3);
+}
+.backgroundIcon {
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+}
+.calendarioEscolar {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-size: var(--heading-heading-3-size);
+}
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dropdownIcon {
+  top: 2px;
+  left: 116px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.date1,
+.dropdownIcon,
+.month {
+  position: absolute;
+}
+.month {
+  top: 36px;
+  left: 348px;
+  width: 140px;
+  height: 27px;
+}
+.date1 {
+  left: 0;
+  width: 64.92px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date,
+.date1,
+.date2,
+.date3 {
+  top: 0;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  height: 74px;
+}
+.date {
+  position: absolute;
+  left: 260px;
+  width: 64.92px;
+}
+.date2,
+.date3 {
+  left: 0;
+  width: 65px;
+}
+.date3 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date2 {
+  color: var(--color-orange);
+}
+.bg,
+.date2,
+.div15 {
+  position: absolute;
+}
+.bg {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--green1);
+  width: 48px;
+  height: 48px;
+}
+.div15 {
+  top: 11px;
+  left: 18px;
+}
+.tag {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+.date5 {
+  position: absolute;
+  left: 0;
+  width: 64.98px;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date4,
+.date5,
+.date7 {
+  top: 0;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.date4 {
+  position: absolute;
+  left: 65px;
+  width: 64.98px;
+  height: 74px;
+  color: var(--color-white);
+}
+.date7 {
+  left: 0;
+  width: 64.96px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date6,
+.date7,
+.date9 {
+  position: absolute;
+  height: 74px;
+}
+.date6 {
+  top: 0;
+  left: 130px;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 64.96px;
+}
+.date9 {
+  left: 0;
+  width: 64.94px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date10,
+.date11,
+.date8,
+.date9 {
+  top: 0;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.date8 {
+  position: absolute;
+  left: 195px;
+  width: 64.94px;
+  height: 74px;
+}
+.date10,
+.date11 {
+  width: 64.9px;
+}
+.date11 {
+  position: absolute;
+  left: 0;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.date10 {
+  left: 325px;
+}
+.date10,
+.date12,
+.week02 {
+  position: absolute;
+  height: 74px;
+}
+.date12 {
+  top: 0;
+  left: 390px;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 65px;
+}
+.week02 {
+  top: 74px;
+  left: 0;
+  width: 455px;
+}
+.bg1,
+.date18 {
+  position: absolute;
+  top: 0;
+}
+.date18 {
+  left: 65px;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 64.98px;
+  height: 74px;
+}
+.bg1 {
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-yellow);
+  width: 48px;
+  height: 48px;
+}
+.date26,
+.div26 {
+  position: absolute;
+  top: 11px;
+  left: 13px;
+}
+.date26 {
+  top: 0;
+  left: 390px;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 65px;
+  height: 74px;
+  color: var(--color-white);
+}
+.week03 {
+  top: 148px;
+  left: 0;
+  width: 455px;
+  height: 74px;
+}
+.bg2,
+.div30,
+.week03 {
+  position: absolute;
+}
+.bg2 {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-orange);
+  width: 48px;
+  height: 48px;
+}
+.div30 {
+  top: 11px;
+  left: 14px;
+}
+.date34,
+.week,
+.week04 {
+  position: absolute;
+  height: 74px;
+}
+.date34 {
+  top: 0;
+  left: 130px;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 64.96px;
+  color: var(--color-white);
+}
+.week,
+.week04 {
+  top: 222px;
+  left: 0;
+  width: 455px;
+}
+.week {
+  top: 160px;
+  left: 32px;
+  height: 370px;
+}
+.monday,
+.sunday,
+.tuesday {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64.98px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.monday,
+.tuesday {
+  left: 65.17px;
+}
+.tuesday {
+  left: 130.34px;
+}
+.wednesday {
+  position: absolute;
+  left: 195.51px;
+}
+.friday,
+.thursday,
+.wednesday {
+  top: 0;
+  width: 64.98px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.thursday {
+  position: absolute;
+  left: 260.68px;
+}
+.friday {
+  left: 325.85px;
+}
+.days,
+.friday,
+.saturday {
+  position: absolute;
+}
+.saturday {
+  top: 0;
+  left: 391.02px;
+  width: 64.98px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.days {
+  top: 100px;
+  left: 32px;
+  width: 456px;
+  height: 47px;
+  color: var(--color-gray-3);
+}
+.schoolCalendar {
+  position: absolute;
+  top: 881px;
+  left: 50px;
+  width: 520px;
+  height: 562px;
+  font-size: var(--text-text-regular-1-size);
+}
+.intuicinEstudiantilNo {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  display: inline-block;
+  width: 488px;
+}
+.list1 {
+  position: absolute;
+  top: 92px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.span {
+  color: var(--green1);
+}
+.span1 {
+  color: var(--color-main);
+}
+.showing15FromContainer {
+  position: absolute;
+  top: 13px;
+  left: 0;
+}
+.dropdownIcon1 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div35 {
+  position: absolute;
+  top: 11px;
+  left: calc(50% - 3px);
+  display: inline-block;
+  width: 6.93px;
+}
+.div34 {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--green1);
+  box-shadow: 0 7px 16px rgba(0, 0, 0, 0.14);
+  width: 50px;
+  height: 50px;
+  color: var(--color-white);
+}
+.div37 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% - 5.5px);
+  display: inline-block;
+  width: 10.89px;
+}
+.div36 {
+  position: relative;
+  border-radius: var(--br-21xl);
+  border: 2px solid var(--color-gray-3);
+  box-sizing: border-box;
+  width: 51px;
+  height: 51px;
+}
+.page {
+  position: absolute;
+  top: 0;
+  left: 727px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--text-text-regular-1-size);
+}
+.pagination {
+  position: absolute;
+  top: 642px;
+  left: 41px;
+  width: 1007px;
+  height: 51px;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.unpaidStudent {
+  position: absolute;
+  top: 1483px;
+  left: 50px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1080px;
+  height: 725px;
+}
+.content,
+.placeholder {
+  position: absolute;
+  top: 0;
+}
+.content {
+  left: 345px;
+  background-color: var(--color-white);
+  width: 1180px;
+  height: 2310px;
+  font-size: var(--heading-heading-3-size);
+}
+.placeholder {
+  left: 253px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-21);
+  width: 60px;
+  height: 60px;
+}
+.nabilaA {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.admin,
+.nabilaA,
+.name {
+  position: absolute;
+}
+.admin {
+  top: 25px;
+  left: 18px;
+  color: var(--color-gray-3);
+}
+.name {
+  top: 7px;
+  left: 165px;
+  width: 64px;
+  height: 46px;
+}
+.notificationIcon,
+.settingIcon {
+  position: absolute;
+  top: -30px;
+  left: -50px;
+  width: 160px;
+  height: 160px;
+}
+.settingIcon {
+  left: 30px;
+  border-radius: var(--br-21xl);
+}
+.menu {
+  top: 50px;
+  left: 32px;
+  width: 313px;
+  height: 60px;
+}
+.b5,
+.btncta,
+.menu {
+  position: absolute;
+}
+.b5 {
+  top: 16.67%;
+  left: 33.33%;
+  line-height: 24px;
+}
+.btncta {
+  height: 8.62%;
+  width: 15.38%;
+  top: 0;
+  right: 0;
+  bottom: 91.38%;
+  left: 84.62%;
+  border-radius: var(--br-21xl);
+  background-color: var(--green1);
+  box-shadow: var(--shadow);
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--text-text-2-regular);
+}
+.alumnosRecientes {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.span3 {
+  font-weight: 600;
+}
+.youHave456Container {
+  position: absolute;
+  top: 65.57%;
+  left: 0;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.title1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 238px;
+  height: 61px;
+  font-size: var(--heading-heading-3-size);
+}
+.mailButtonIcon {
+  position: absolute;
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 84.62%;
+  border-radius: var(--br-21xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.samanthaWilliam {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.classViiA {
+  position: absolute;
+  top: 54.35%;
+  left: 0;
+  color: var(--color-gray-3);
+}
+.placeholder1,
+.text4 {
+  position: absolute;
+  top: 1px;
+  left: 64px;
+  width: 134px;
+  height: 46px;
+}
+.placeholder1 {
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 84.62%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-21);
+}
+.div40,
+.text5 {
+  position: absolute;
+  top: 96px;
+  left: 0;
+  width: 312px;
+  height: 48px;
+}
+.text5 {
+  top: 1px;
+  left: 64px;
+  width: 75px;
+  height: 46px;
+}
+.div41,
+.div42,
+.text6 {
+  position: absolute;
+  top: 176px;
+  left: 0;
+  width: 312px;
+  height: 48px;
+}
+.div42,
+.text6 {
+  top: 1px;
+  left: 64px;
+  width: 83px;
+  height: 46px;
+}
+.div42 {
+  top: 256px;
+  left: 0;
+  width: 312px;
+  height: 48px;
+}
+.div43,
+.div44,
+.text7 {
+  position: absolute;
+  top: 1px;
+  left: 64px;
+  width: 86px;
+  height: 46px;
+}
+.div43,
+.div44 {
+  top: 336px;
+  left: 0;
+  width: 312px;
+  height: 48px;
+}
+.div44 {
+  top: 416px;
+}
+.viewMore {
+  position: absolute;
+  top: 27.87%;
+  left: 34.94%;
+  font-weight: 600;
+}
+.btnviewmore {
+  position: absolute;
+  height: 10.95%;
+  width: 100%;
+  top: 89.05%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--linear-transparent-purple-10);
+  font-size: var(--text-text-regular-1-size);
+}
+.contact1 {
+  position: absolute;
+  top: 150px;
+  left: 32px;
+  width: 312px;
+  height: 557px;
+}
+.verMs {
+  position: absolute;
+  top: 17px;
+  left: 109px;
+  font-weight: 600;
+}
+.btnviewmore1,
+.chat1,
+.message {
+  position: absolute;
+  left: 1px;
+  width: 312px;
+}
+.btnviewmore1 {
+  top: 444px;
+  border-radius: var(--br-21xl);
+  background-color: var(--linear-transparent-purple-10);
+  height: 61px;
+  font-size: var(--text-text-regular-1-size);
+}
+.chat1,
+.message {
+  top: 60px;
+  height: 352px;
+}
+.message {
+  top: 771px;
+  left: 32px;
+  width: 313px;
+  height: 505px;
+  font-size: var(--heading-heading-3-size);
+}
+.rightMenu,
+.tablero {
+  background-color: var(--color-white);
+  height: 2310px;
+}
+.rightMenu {
+  position: absolute;
+  top: 0;
+  left: 1525px;
+  width: 395px;
+  font-size: var(--text-text-2-regular-size);
+}
+.tablero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--green1);
+  font-family: var(--text-text-regular-1);
+}

@@ -1,0 +1,82 @@
+.lineIcon {
+  position: absolute;
+  top: 0;
+  left: 12.5px;
+  width: 925px;
+  height: 282px;
+}
+.jan,
+.jul {
+  position: relative;
+}
+.jul {
+  color: var(--green1);
+}
+.month1 {
+  position: absolute;
+  top: 309.83px;
+  left: 0;
+  height: 29px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.chartIcon,
+.month {
+  position: absolute;
+  top: 0;
+  left: 53px;
+  width: 953px;
+  height: 338.83px;
+}
+.chartIcon {
+  top: 39.84px;
+  left: 64px;
+  width: 930px;
+  height: 242.83px;
+}
+.div,
+.div1,
+.div2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.div1,
+.div2 {
+  top: 59px;
+}
+.div2 {
+  top: 118px;
+}
+.chart,
+.div3,
+.div4,
+.number {
+  position: absolute;
+  top: 177px;
+  left: 0;
+}
+.chart,
+.div4,
+.number {
+  top: 236px;
+}
+.chart,
+.number {
+  top: 14px;
+  width: 29px;
+  height: 263px;
+}
+.chart {
+  top: 108px;
+  left: 33px;
+  width: 1006px;
+  height: 338.83px;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--color-gray-3);
+  font-family: var(--text-text-regular-1);
+}

@@ -1,0 +1,394 @@
+.aadirNuevoEstudiante {
+  position: absolute;
+  top: 50px;
+  left: 395px;
+  font-size: var(--heading-heading-1-size);
+}
+.bg,
+.titleChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1475px;
+  height: 753px;
+}
+.titleChild {
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--green1);
+  height: 60px;
+}
+.detallesDeEstudiante {
+  position: absolute;
+  top: 12px;
+  left: 40px;
+  display: inline-block;
+  width: 306px;
+}
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1475px;
+  height: 60px;
+  font-size: var(--heading-heading-3-size);
+  color: var(--color-white);
+}
+.foto {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 192px;
+}
+.form1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-gray-21);
+  box-sizing: border-box;
+  height: 175px;
+}
+.dragAndDrop {
+  margin: 0;
+}
+.dragAndDropContainer {
+  position: absolute;
+  top: 70px;
+  left: 10px;
+}
+.form {
+  position: relative;
+  width: 175px;
+  height: 175px;
+  text-align: center;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.photo {
+  position: absolute;
+  top: 92px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.form2 {
+  border: 0;
+  font-family: var(--text-text-regular-1);
+  font-size: var(--text-text-2-regular-size);
+  background-color: transparent;
+  position: relative;
+  width: 577px;
+  height: 48px;
+}
+.firstName,
+.SecondName{
+  position: absolute;
+  top: 95px;
+  left: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.SecondName {
+  left: 857px;
+}
+.form4 {
+  border: 0;
+  font-family: var(--text-text-regular-1);
+  font-size: var(--text-text-2-regular-size);
+  background-color: transparent;
+  position: relative;
+  width: 577px;
+  height: 203px;
+}
+.firstLastName,
+.secondLastName{
+  position: absolute;
+  top: 220px;
+  left: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.secondLastName {
+  left: 857px;
+}
+.address,
+.email {
+  left: 257px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+
+.address {
+  position: absolute;
+  top: 467px;
+}
+.email {
+  top: 343px;
+}
+.div,
+.email,
+.form7 {
+  position: absolute;
+}
+.form7 {
+  border: 1px solid var(--color-gray-21);
+  background-color: var(--color-white);
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  height: 48px;
+}
+.div {
+  width: calc(100% - 127px);
+  top: 15px;
+  left: 14px;
+  display: inline-block;
+}
+.form6 {
+  position: relative;
+  width: 577px;
+  height: 48px;
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.phone {
+  position: absolute;
+  top: 343px;
+  left: 858px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.fechaYLugar {
+  position: relative;
+  font-weight: 600;
+}
+.form9 {
+  border: 0;
+  font-family: var(--text-text-regular-1);
+  font-size: var(--text-text-2-regular-size);
+  background-color: transparent;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 276.5px;
+  height: 48px;
+}
+.jakarta {
+  position: absolute;
+  width: calc(100% - 76.5px);
+  top: 15px;
+  left: 14px;
+  display: inline-block;
+}
+.form10 {
+  position: relative;
+  width: 276.5px;
+  height: 48px;
+}
+.dateBirth,
+.form8 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form8 {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  font-size: var(--text-text-2-regular-size);
+  color: var(--color-gray-3);
+}
+.dateBirth {
+  position: absolute;
+  top: 340px;
+  left: 256px;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+
+.secondLastName{
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 260px;
+}
+.parentName {
+  position: absolute;
+  top: 340px;
+  left: 857px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.bg1,
+.studentDetails {
+  position: absolute;
+  top: 150px;
+  left: 395px;
+  width: 1475px;
+  height: 753px;
+}
+.bg1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  height: 605px;
+}
+.frameChild {
+  position: relative;
+  width: 159px;
+  height: 24px;
+}
+.pagoParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.payments {
+  position: absolute;
+  top: 325px;
+  left: 641px;
+  width: 192px;
+  height: 72px;
+}
+.detallesDelAcudiente {
+  position: absolute;
+  top: 12px;
+  left: 40px;
+  display: inline-block;
+  width: 299px;
+}
+.address1,
+.email2,
+.firstName1,
+.lastName1,
+.phone1 {
+  position: absolute;
+  top: 95px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.address1,
+.email2,
+.lastName1,
+.phone1 {
+  left: 641px;
+}
+.address1,
+.email2,
+.phone1 {
+  top: 325px;
+  left: 41px;
+}
+.email2,
+.phone1 {
+  top: 210px;
+}
+.phone1 {
+  left: 642px;
+}
+.parentDetails {
+  position: absolute;
+  top: 943px;
+  left: 395px;
+  width: 1475px;
+  height: 605px;
+}
+.subir {
+  position: relative;
+  font-size: var(--text-text-regular-1-size);
+  font-family: var(--text-text-regular-1);
+  color: var(--color-white);
+  text-align: left;
+}
+.submitButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  background-color: var(--green1);
+  position: absolute;
+  top: 0;
+  left: 145px;
+  border-radius: var(--br-21xl);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.guardar {
+  position: relative;
+  font-size: var(--text-text-regular-1-size);
+  font-family: var(--text-text-regular-1);
+  color: var(--green1);
+  text-align: left;
+}
+.button,
+.draftButton {
+  position: absolute;
+  height: 60px;
+}
+.draftButton {
+  cursor: pointer;
+  border: 2px solid var(--green1);
+  padding: var(--padding-3xs) var(--padding-5xl);
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  top: 1588px;
+  left: 1613px;
+  width: 239px;
+}
+.addNewStudent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1688px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--green1);
+  font-family: var(--text-text-regular-1);
+}

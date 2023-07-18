@@ -1,0 +1,72 @@
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray-3);
+  box-sizing: border-box;
+  width: 901.24px;
+  height: 80px;
+}
+.writeYourMessage {
+  position: absolute;
+  top: 27px;
+  left: 33.38px;
+  display: inline-block;
+  width: 200.28px;
+}
+.form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 901.24px;
+  height: 80px;
+}
+.send,
+.sentIcon {
+  position: relative;
+}
+.send {
+  font-weight: 600;
+}
+.sentIcon {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sendButton {
+  position: absolute;
+  top: 10px;
+  left: 756.25px;
+  border-radius: var(--br-21xl);
+  background-color: var(--green1);
+  width: 135.6px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-lgi);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  color: var(--color-white);
+}
+.attachmentIcon {
+  position: absolute;
+  top: 20px;
+  left: 699.92px;
+  width: 41.72px;
+  height: 40px;
+  overflow: hidden;
+}
+.typeForm {
+  position: relative;
+  width: 901.24px;
+  height: 80px;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--color-gray-3);
+  font-family: var(--text-text-regular-1);
+}
